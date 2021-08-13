@@ -29,7 +29,7 @@ Files of type ".launch" that runs multiple Turtlebot3 robots in gazebo and contr
 7. clone the file "launch" in multi_robot:
   ```
   $ cd ~/catkin_ws/src/multi_robot
-  $ git clone -b melodic-devel https://github.com/HebaAlkhorasani/Run-Multiple-Turtlebot3-Robots-on-Gazebo.git
+  $ svn checkout https://github.com/HebaAlkhorasani/Run-Multiple-Turtlebot3-Robots-on-Gazebo/trunk/launch
   ```
 8. Launch the project:
   ```
