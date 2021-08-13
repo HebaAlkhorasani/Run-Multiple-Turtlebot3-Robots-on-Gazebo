@@ -37,8 +37,10 @@ Files of type ".launch" that runs multiple Turtlebot3 robots in gazebo and contr
   ```
   the following Gazebo window must be displayed:
   ![](Gazebo.PNG)
+  
 9. When using ```rostopic list``` these topics must be active:
   ![](Topics.PNG)
+  
 10. Control the Two robots using teleop from two saperate terminals:
   ```
   $ rosrun teleop_twist_keyboard teleop_twist_keyboard.py /cmd_vel:=/robot1/cmd_vel
